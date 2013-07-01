@@ -98,7 +98,17 @@
 }
 %------- end objectives ------------------------------------
 
-\newenvironment{notes}
+%------- end notes-free ------------------------------------
+\newenvironment{notes-free}
+{ 
+	{\color{ForestGreen}\Large\textsf{\textbf{LESSON NOTES:\\}}}
+}
+{
+}
+%------- end notes-free ------------------------------------
+
+%------- end notes-list ------------------------------------
+\newenvironment{notes-list}
 { 
 	{\color{ForestGreen}\Large\textsf{\textbf{LESSON NOTES:}}}
 	\begin{enumerate}
@@ -106,6 +116,7 @@
 {
 	\end{enumerate}
 }
+%------- end notes-list ------------------------------------
 
 %------- bbox ----------------------------------------
 \newenvironment{bbox}[1]
